@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    ./gradlew build --no-daemon
     npm run build
   displayName: 'npm install and build'
